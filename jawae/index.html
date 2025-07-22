@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JAWAE.AE</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <style>
+    /* green color background*/
+    .jade-bg {
+      background-color: #a8c3a0;
+    }
+
+    .jade-bg h2,
+    .jade-bg p,
+    .jade-bg a,
+    .jade-bg li,
+    .jade-bg .logo {
+      color: #111;
+    }
+
+    .jade-bg .shop-all {
+      background: #111;
+      color: #fff;
+    }
+
+    .jade-bg .category-grid p {
+      color: #000;
+    }
+
+    .navbar.jade-bg ul.nav-links a {
+      color: #111;
+    }
+
+    .navbar.jade-bg .logo {
+      color: #111;
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="topbar">
+    <div class="top-left">
+      <a href="#">Contact Us</a>
+      <span> | EN / العربية | United Arab Emirates</span>
+    </div>
+    <div class="top-right">
+      <a href="#">Book an Appointment</a>
+      <a href="#">👤</a>
+      <a href="#">❤️</a>
+      <a href="#">🛒</a>
+    </div>
+  </header>
+
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar jade-bg">
+    <div class="logo">
+        <a href="index.html">JAWAE</a>
+      </div>
+      
+    <ul class="nav-links">
+      <li><a href="jewelry.html">Jewellery</a></li>
+      <li><a href="gifts.html">Gifts</a></li>
+      <li><a href="loveandengagement.html">Love & Engagement</a></li>
+      <li><a href="worldofjawae.html">World Of Jawae</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>With Love, Since 2025</h1>
+      <p>JAWAE creates bespoke diamond jewelry for those who value distinction.
+        Every piece is custom-designed, crafted with care, and made to reflect your personal vision — with precision and elegance at its core.
+        
+        From engagement rings to signature creations, we offer a fully tailored experience, where the design is as meaningful as the diamond itself.
+        
+        This is luxury that speaks only to you.
+        This is JAWAE.</p>
+      <button>Shop Now</button>
+    </div>
+    <div class="hero-media">
+      <img src="img/one.jpg" alt="Hero jewelry"/>
+    </div>
+  </section>
+
+  <!-- PRODUCT SLIDER -->
+  <section class="slider jade-bg"> <!-- ADDED jade-bg -->
+    <div class="slider-container" id="slider">
+      <img src="img/six_landscape.jpg" alt="Product 1">
+      <img src="img/seven_landscape.jpg" alt="Product 2">
+      <img src="img/five_landscape.jpg" alt="Product 3">
+      <img src="img/backround.jpg" alt="Product 4">
+      <img src="img/whitering.jpg" alt="Product 5">
+      <img src="img/necklace.jpg" alt="Product 6">
+      <img src="img/goldring.jpg" alt="Product 7">
+    </div>
+    <button class="slide-btn left" onclick="slideLeft()">←</button>
+    <button class="slide-btn right" onclick="slideRight()">→</button>
+    <div class="center"><button class="shop-all">Shop All</button></div>
+  </section>
+
+  <!-- PROMOTIONAL BLOCKS -->
+  <section class="promos">
+    <div class="promo">
+      <img src="img/diamondring.jpg" alt="Promo 1">
+      <h3>Diamond rings</h3>
+      <a href="#">Shop Now →</a>
+    </div>
+    <div class="promo">
+      <img src="img/three.jpg" alt="Promo 2">
+      <h3>New Jewelry</h3>
+      <a href="#">Shop Now →</a>
+    </div>
+  </section>
+
+  <!-- CATEGORY SECTION -->
+  <section class="categories jade-bg"> <!-- ADDED jade-bg -->
+    <h2>Shop by Category</h2>
+    <div class="category-grid">
+      <div><img src="img/necks.jpg"><p>Necklaces & Pendants</p></div>
+      <div><img src="img/earrings.jpg"><p>Earrings</p></div>
+      <div><img src="img/rings.jpg"><p>Rings</p></div>
+      <div><img src="img/bracelet.jpg"><p>Bracelets</p></div>
+   
+    </div>
+  </section>
+
+  <!-- TIFFANY EXPERIENCE -->
+  <section class="experience">
+    <h2>The Jawae Experience</h2>
+    <div class="experience-grid">
+      <div><h3>📦 Complimentary Shipping</h3><p>We offer free shipping on orders above 2000 AED</p></div>
+      <div><h3>🛎️ Jawae At Your Service</h3><p>Our experts are here to help</p></div>
+      <div><h3>📅 Book an Appointment</h3><p>deliver your creative ideas in personal</p></div>
+      <div><h3>🎁 The Iconic Jawae Box</h3><p>Your gift comes wrapped in our Jawae Box</p></div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-cols">
+      <div>
+        <h4>Client Care</h4>
+        <ul><li>Contact us</li><li>FAQs</li><li>Book an Appointment</li></ul>
+      </div>
+      <div>
+        <h4>Our Company</h4>
+        <ul><li>World of Jawae</li><li>Sustainability</li></ul>
+      </div>
+      <div>
+        <h4>Sign Up</h4>
+        <input type="email" placeholder="Email" />
+        <button>Sign up</button>
+      </div>
+    </div>
+    <div class="footer-bottom">© JAWAE.AE 2025</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
